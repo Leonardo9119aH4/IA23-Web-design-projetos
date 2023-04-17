@@ -1,0 +1,22 @@
+nav {
+    background-color: #d4d4d4;
+}
+nav ul {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+nav ul>li {
+    list-style: none;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+nav ul>li>ul {
+    display: none;
+}
+nav ul>li:hover>ul {
+    display: block;
+}
